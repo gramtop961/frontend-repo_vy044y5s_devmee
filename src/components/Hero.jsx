@@ -1,6 +1,6 @@
 import Spline from '@splinetool/react-spline';
 import { motion } from 'framer-motion';
-import { Gamepad2, Monitor, Playstation, Xbox } from 'lucide-react';
+import { Gamepad2, Monitor, Cpu } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -70,8 +70,8 @@ export default function Hero() {
           className="mt-8 grid grid-cols-3 gap-3 text-xs text-zinc-300"
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2"><Monitor className="h-4 w-4 text-violet-300" /> PC</span>
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2"><Xbox className="h-4 w-4 text-violet-300" /> Xbox</span>
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2"><Playstation className="h-4 w-4 text-violet-300" /> PlayStation</span>
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2"><Gamepad2 className="h-4 w-4 text-violet-300" /> Controller</span>
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2"><Cpu className="h-4 w-4 text-violet-300" /> Cross-platform</span>
         </motion.div>
 
         {/* Input hint */}
