@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-zinc-400">© {new Date().getFullYear()} Axion. All rights reserved.</p>
           <div className="flex items-center gap-6 text-sm">
-            <a href="#community" className="text-zinc-300 hover:text-white">Community</a>
+            <a href="#media" className="text-zinc-300 hover:text-white">Trailer</a>
             <a href="#features" className="text-zinc-300 hover:text-white">Features</a>
             <a href="#download" className="text-zinc-300 hover:text-white">Download</a>
           </div>
